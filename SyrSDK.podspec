@@ -7,11 +7,12 @@ Pod::Spec.new do |spec|
      spec.ios.deployment_target = '9.0'
      spec.summary      = 'test'
      spec.source       = { :git => 'm15011418199@163.com', :commit => 'bd31fca' }
-     #spec.source_files = 'Reachability.{h,m}'
-     spec.ios.vendored_frameworks = 'SDKTest/libSyrSDK.a'
+      s.source_files  = "SyrSDK/*.{h}"
+     #spec.ios.vendored_frameworks = 'SyrSDK/SyrSDK.a'
      spec.pod_target_xcconfig = {
      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
     }
     spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
     spec.requires_arc = true
+    s.dependency "AFNetworking","~> 4.0.0"
  end
