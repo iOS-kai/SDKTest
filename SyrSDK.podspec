@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
      spec.authors      = { 'iOS-kai' => 'm15011418199@163.com' }
      spec.ios.deployment_target = '9.0'
      spec.summary      = 'test'
-     spec.source       = { :git => 'm15011418199@163.com', :commit => 'bd31fca' }
+     spec.source       = { :git => 'm15011418199@163.com', :commit => '982c141' }
       s.source_files  = "SyrSDK/*.{h}"
      #spec.ios.vendored_frameworks = 'SyrSDK/SyrSDK.a'
      spec.pod_target_xcconfig = {
