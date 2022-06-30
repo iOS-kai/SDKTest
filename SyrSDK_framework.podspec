@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "SyrSDK_framework"
-  s.version = "1.0.0"
+  s.version = "1.0.1"
   s.summary = "A short description of SyrSDK_framework."
   s.homepage         = 'https://github.com/iOS-kai/SDKTest'
   s.license          =  "MIT"
