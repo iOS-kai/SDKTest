@@ -1,0 +1,19 @@
+Pod::Spec.new do |s|
+  s.name = "SyrSDK_framework"
+  s.version = "1.0.0"
+  s.summary = "A short description of SyrSDK_framework."
+  s.homepage         = 'https://github.com/brownfeng/SyrSDK_framework'
+  s.license          =  "MIT"
+  s.authors = {"brownfeng"=>"brownfeng@github.com"}
+  s.description = "TODO: Add long description of the pod here."
+  s.frameworks = ["UIKit", "AVFoundation", "MobileCoreServices", "CoreVideo", "Accelerate", "Security", "SystemConfiguration", "CoreMedia", "AudioToolbox", "CoreTelephony", "ImageIO","WebKit"]
+  s.libraries = ["c++","z"]
+  s.source = { :path => '.' }
+
+  s.ios.deployment_target    = '9.0'
+ # s.ios.vendored_framework   = 'Libs/*.a'
+
+  s.vendored_libraries  = "Libs/libSyrSDK.a"
+  s.ios.resource = 'Resources/*.bundle'
+  s.source_files = "Libs/*.{h,m}"
+end
