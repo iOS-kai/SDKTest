@@ -11,9 +11,10 @@ Pod::Spec.new do |s|
   s.source = { :path => '.' }
 
   s.ios.deployment_target    = '9.0'
- # s.ios.vendored_framework   = 'Libs/*.a'
+ # s.ios.vendored_framework   = 'Libs/*.framework'
 
   s.vendored_libraries  = "Libs/libSyrSDK.a"
   s.ios.resource = 'Resources/*.bundle'
   s.source_files = "Libs/*.{h,m}"
+  s.dependency 'AFNetworking', '~> 4.0.0'
 end
