@@ -2,9 +2,9 @@ Pod::Spec.new do |s|
   s.name = "SyrSDK_framework"
   s.version = "1.0.0"
   s.summary = "A short description of SyrSDK_framework."
-  s.homepage         = 'https://github.com/brownfeng/SyrSDK_framework'
+  s.homepage         = 'https://github.com/iOS-kai/SDKTest'
   s.license          =  "MIT"
-  s.authors = {"brownfeng"=>"brownfeng@github.com"}
+  s.authors = {"iOS-kai"=>"m15011418199@163.com"}
   s.description = "TODO: Add long description of the pod here."
   s.frameworks = ["UIKit", "AVFoundation", "MobileCoreServices", "CoreVideo", "Accelerate", "Security", "SystemConfiguration", "CoreMedia", "AudioToolbox", "CoreTelephony", "ImageIO","WebKit"]
   s.libraries = ["c++","z"]
